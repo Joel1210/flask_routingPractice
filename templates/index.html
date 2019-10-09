@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        h1{
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        div{
+            background-color: {{colorj}};
+            border: solid 2px black;
+            width: 100px;
+            height: 100px;
+            margin-left: 50px;
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+    <h1>Welcome!</h1>
+    {% for i in range(0, times): %}
+        <div></div>
+    {% endfor %}
+
+
+
+
+
+
+</body>
+</html>
